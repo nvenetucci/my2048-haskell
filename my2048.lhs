@@ -202,10 +202,10 @@ direction it slides in (the Board can't move).
 >   && boardsEq b (slideDown b)
 >   && boardsEq b (slideUp b)
 
-play is the function that manages the core game "loop." The first thing play
+play is the function that manages the core game loop. The first thing play
 does is check whether the Board is full or not. If the Board is not full, play
 will generate a random number used to index a (row, col) position within the
-list returned by zeroIndexes. This randomly selected "empty" position will then
+list returned by zeroIndexes. This randomly selected empty position will then
 be used to populate the Board with a 2. If the Board is full, no random
 generation and population will occur. The play function then checks if the Board
 can move (slide). If the Board can't move, it's game over. But if the Board can

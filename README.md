@@ -1,6 +1,6 @@
 # my2048-haskell
 
-## Build and Run
+### Build and Run
 I built using:
 ```
 ghc --make my2048
