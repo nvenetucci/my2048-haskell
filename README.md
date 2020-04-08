@@ -10,7 +10,7 @@ then ran with:
 ./my2048
 ```
 
-## Background Info
+### Background Info
 The game *2048* is a sliding tile puzzle game. The main objective is to combine  
 alike numeric tiles with one another to create a large numbered (2048) tile.  
 This is done by repeatedly sliding all the tiles on the board (4x4) in a  
@@ -29,7 +29,7 @@ one tile equaling the sum of the two tiles. For instance:
 +----+----+----+----+                +----+----+----+----+
 ```
 
-## My Approach
+### My Approach
 The first thing I did was define the `type Board = [[Int]]`. This proved to be  
 pretty convenient, as many functions ended up taking `Board` as an input  
 argument and/or return type. I initially thought about making a  
